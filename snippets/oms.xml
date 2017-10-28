@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
     <!-- Remove LineageOS repos -->
-    <remove-project name="LineageOS/android_frameworks_base" />
     <remove-project name="LineageOS/android_frameworks_native" />
     <remove-project name="LineageOS/android_packages_apps_Contacts" />
     <remove-project name="LineageOS/android_packages_apps_ContactsCommon" />
@@ -11,7 +10,6 @@
     <remove-project name="LineageOS/android_packages_apps_PhoneCommon" />
     <remove-project name="LineageOS/android_packages_apps_Settings" />
     <remove-project name="LineageOS/android_system_sepolicy" />
-    <remove-project name="LineageOS/android_vendor_cm" />
 
     <!-- Track OMS repos -->
     <project path="frameworks/base" name="LineageOS-eXtended/android_frameworks_base" />
@@ -24,7 +22,6 @@
     <project path="packages/apps/PhoneCommon" name="LineageOS-eXtended/android_packages_apps_PhoneCommon" />
     <project path="packages/apps/Settings" name="LineageOS-eXtended/android_packages_apps_Settings" />
     <project path="system/sepolicy" name="LineageOS-eXtended/android_system_sepolicy" />
-    <project path="vendor/cm" name="LineageOS-eXtended/android_vendor_cm" />
 
     <!-- Track ThemeInterfacer -->
     <project path="packages/services/ThemeInterfacer" name="substratum/interfacer" remote="github" revision="n-rootless" />
