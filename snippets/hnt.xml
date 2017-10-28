@@ -8,7 +8,7 @@
     <remove-project name="LineageOS/android_frameworks_av" />
 
     <!-- Track my repos -->
-    <project path="build" name="LineageOS-eXtended/android_build" remote="github" revision="cm-14.1">
+    <project path="build" name="VolteROM/android_build" remote="github" revision="cm-14.1">
         <copyfile src="core/root.mk" dest="Makefile" />
     </project>
     <project path="vendor/cmsdk" name="LineageOS-eXtended/cm_platform_sdk" remote="github" revision="cm-14.1" />
