@@ -516,5 +516,8 @@
 
   <!-- HNT repos -->
   <include name="snippets/hnt.xml" />
+  
+  <!-- PAOSP -->
+  <include name="snippets/paosp.xml" />
 
 </manifest>
