@@ -11,7 +11,6 @@
     <remove-project name="LineageOS/android_system_sepolicy" />
 
     <!-- Track OMS repos -->
-    <project path="frameworks/base" name="LineageOS-eXtended/android_frameworks_base" />
     <project path="frameworks/native" name="LineageOS-eXtended/android_frameworks_native" />
     <project path="packages/apps/Contacts" name="LineageOS-eXtended/android_packages_apps_Contacts" />
     <project path="packages/apps/ContactsCommon" name="LineageOS-eXtended/android_packages_apps_ContactsCommon" />
