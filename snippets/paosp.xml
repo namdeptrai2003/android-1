@@ -7,5 +7,5 @@
     <project path="packages/apps/SetupWizard" name="VolteROM/android_packages_apps_SetupWizard" remote="github" revision="cm-14.1" />
     <project path="vendor/cm" name="VolteROM/android_vendor_cm" remote="github" revision="cm-14.1" />
     <project path="packages/apps" name="VolteROM/packages" remote="github" revision="master" />
-    <project path="frameworks/base" name="VolteROM/android_frameworks_base" />
+    <project path="frameworks/base" name="LineageOS-eXtended/android_frameworks_base" />
 </manifest>
