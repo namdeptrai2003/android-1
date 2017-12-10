@@ -6,10 +6,16 @@
     <remove-project name="LineageOS/android_packages_apps_CMParts" />
     <remove-project name="LineageOS/android_packages_services_Telephony" />
     <remove-project name="LineageOS/android_frameworks_av" />
+    <remove-project name="LineageOS/android_packages_services_Telecomm" />
     <remove-project name="LineageOS/android_packages_apps_Snap" />
+    <remove-project name="LineageOS/android_packages_providers_MediaProvider" />
+    <remove-project name="LineageOS/android_system_core" />
+    <remove-project name="LineageOS/android_packages_apps_FMRadio" />
+    <remove-project name="LineageOS/android_packages_apps_Trebuchet" />
+    <remove-project name="LineageOS/android_packages_apps_DeskClock" />
 
     <!-- Track my repos -->
-    <project path="build" name="VolteROM/android_build" remote="github" revision="cm-14.1">
+    <project path="build" name="LineageOS-eXtended/android_build" remote="github" revision="cm-14.1">
         <copyfile src="core/root.mk" dest="Makefile" />
     </project>
     <project path="vendor/cmsdk" name="LineageOS-eXtended/cm_platform_sdk" remote="github" revision="cm-14.1" />
@@ -17,5 +23,10 @@
     <project path="packages/services/Telephony" name="LineageOS-eXtended/android_packages_services_Telephony" remote="github" revision="cm-14.1" />
     <project path="frameworks/av" name="LineageOS-eXtended/android_frameworks_av" remote="github" revision="cm-14.1" />
     <project path="vendor/hnt" name="LineageOS-eXtended/android_vendor_hnt" remote="github" revision="cm-14.1" />
+    <project path="packages/services/Telecomm" name="LineageOS-eXtended/android_packages_services_Telecomm" remote="github" revision="cm-14.1" />
     <project path="packages/apps/Snap" name="LineageOS-eXtended/android_packages_apps_Snap" remote="github" revision="cm-14.1" />
+    <project path="packages/providers/MediaProvider" name="LineageOS-eXtended/android_packages_providers_MediaProvider" remote="github" revision="cm-14.1" />
+    <project path="system/core" name="LineageOS-eXtended/android_system_core" remote="github" revision="cm-14.1" />
+    <project path="packages/apps/FMRadio" name="LineageOS-eXtended/android_packages_apps_FMRadio" remote="github" revision="cm-14.1" />
+    <project path="packages/apps/DeskClock" name="LineageOS-eXtended/android_packages_apps_DeskClock" remote="github" revision="cm-14.1" />
 </manifest>
