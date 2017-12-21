@@ -5,5 +5,5 @@
     <project path="packages/apps/Settings" name="PAOSP/porlos_packages_apps_Settings" remote="github" revision="cm-14.1" />
     <project path="packages/apps/SetupWizard" name="PAOSP/porlos_packages_apps_SetupWizard" remote="github" revision="cm-14.1" />
     <project path="vendor/cm" name="PAOSP/porlos_vendor_cm" remote="github" revision="cm-14.1" />
-    <project path="packages/apps/SuccApps" name="PAOSP/porlos_packages_apps_SuccApps" remote="github" revision="n" />
+    <project path="packages/apps/SuccApps" name="PAOSP/common_packages_apps_SuccApps" remote="github" revision="n" />
 </manifest>
