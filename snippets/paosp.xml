@@ -4,6 +4,6 @@
     <remove-project name="LineageOS/android_vendor_cm" />
     <project path="packages/apps/Settings" name="PAOSP/porlos_packages_apps_Settings" remote="github" revision="paosp-n" />
     <project path="packages/apps/SetupWizard" name="PAOSP/porlos_packages_apps_SetupWizard" remote="github" revision="paosp-n" />
-    <project path="vendor/cm" name="PAOSP/porlos_vendor_cm" remote="github" revision="paosp-n" />
+    <project path="vendor/cm" name="PAOSP/android_vendor_lineage" remote="github" revision="paosp-n" />
     <project path="packages/apps/SuccApps" name="PAOSP/common_packages_apps_SuccApps" remote="github" revision="n" />
 </manifest>
