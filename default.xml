@@ -518,5 +518,8 @@
   
   <!-- PAOSP -->
   <include name="snippets/paosp.xml" />
+  
+  <!-- Grand Prime Stuff -->
+  <include name="snippets/grandprime.xml" />
 
 </manifest>
